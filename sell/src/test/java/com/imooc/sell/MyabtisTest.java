@@ -1,5 +1,6 @@
 package com.imooc.sell;
 
+
 import com.imooc.sell.bean.ProductInfo;
 import com.imooc.sell.dao.ProductInfoMapper;
 import org.junit.Test;
@@ -20,8 +21,9 @@ import java.util.List;
 @SpringBootTest
 public class MyabtisTest {
 
+    //生成bean、dao、xml
     @Test
-    public void testMybatis() throws Exception{
+    public void testMybatis() throws Exception {
         List<String> warnings = new ArrayList<>();
         boolean overwrite = true;
         File configFile = new File("E:\\workspace\\IDEA\\Project\\Sell\\sell\\src\\main\\resources\\mybatis-generator.xml");

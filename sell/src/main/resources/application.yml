@@ -11,6 +11,7 @@ server:
     context-path: /sell
 
 
+
 #logging:
 #  pattern:
 #    console: "%d - %msg%n"
